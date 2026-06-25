@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+**/.env
+
+# Firebase private key
+server/src/config/firebaseServiceAccount.json
+
+# Uploads
+server/uploads/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build folders
+client/dist/
+admin/dist/
